@@ -1,0 +1,1 @@
+ifconfig -a | grep -Eo ..\(\:..\){5} | awk '{print $0,"\n"}'
