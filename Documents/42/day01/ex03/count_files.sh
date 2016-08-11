@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type d && find . -type f  | wc -l | sed 's/ //g'
+find . | wc -l | sed 's/ //g'
