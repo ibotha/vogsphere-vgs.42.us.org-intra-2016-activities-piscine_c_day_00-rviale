@@ -1,0 +1,5 @@
+dn: uid=rviale,ou=august,ou=2016,ou=people,dc=42,dc=us,dc=org
+changetype: modify
+
+add: mobile-phone
+mobile-phone: +33670018156
