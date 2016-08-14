@@ -1,32 +1,21 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_recursive_factorial.c                           :+:      :+:    :+:   */
+/*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: rviale <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/08/13 19:08:06 by rviale            #+#    #+#             */
-/*   Updated: 2016/08/13 19:08:13 by rviale           ###   ########.fr       */
+/*   Created: 2016/08/13 22:55:36 by rviale            #+#    #+#             */
+/*   Updated: 2016/08/13 22:55:43 by rviale           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int		ft_recursive_factorial(int nb, int power)
-{
-	int resultat;
+#include <stdio.h>
+#include <unistd.h>
 
-	resultat =  1;
-	if (power < 0)
-	{
-		return (0);
-	}
-	if (power == 1)
-	{
-		return (1);
-	}
-	while(power == resultat)
-	{
-		resultat -= nb;
-		power--;
-	}
-	return (resultat);
+int		ft_recursive_power (int nb, int power);
+int		main(void)
+{
+	printf("number of end : %d \n", ft_recursive_power(6, 6));
+	return (0);
 }

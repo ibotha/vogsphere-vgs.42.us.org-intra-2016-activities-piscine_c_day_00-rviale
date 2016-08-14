@@ -10,4 +10,12 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <stdio.h>
+#include <unistd.h>
 
+int		ft_iterative_power (int nb, int power);
+int		main(void)
+{
+	printf("number of end : %d \n", ft_iterative_power(3, 5));
+	return (0);
+}

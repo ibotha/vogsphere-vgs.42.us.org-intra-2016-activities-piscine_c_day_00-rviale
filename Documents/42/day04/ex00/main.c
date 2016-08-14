@@ -13,15 +13,14 @@
 #include <unistd.h>
 #include <stdio.h>
 
-int	ft_iterative_factorial();
+int		ft_iterative_factorial ();
 
 int		main(void)
 {
-	
 	int i = 4;
 
 	printf("start number : %d", i );
-	int	ft_iterative_factorial();
+	int	ft_iterative_factorial ();
 	printf("\nnumber of end : %d", i );
 	return (0);
 }
